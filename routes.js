@@ -14,5 +14,6 @@ routes.get('/avg', AccountController.avgAgency);
 routes.get('/lowest', AccountController.lowestBalances);
 routes.get('/top', AccountController.topBalances);
 routes.get('/transferTop', AccountController.transferTopBalances);
+routes.get('/test', AccountController.transferTopBalances);
 
 export default routes;
