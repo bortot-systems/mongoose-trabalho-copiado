@@ -2,6 +2,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import mongoose from 'mongoose';
 //import swaggerUi from 'swagger-ui-express';
+//Teste
 
 //import { swaggerDocument } from './docs';
 import routes from './routes.js';
