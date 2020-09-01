@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO_DB_URL, {
 //app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use(routes);
 
-app.listen(3333, () => {
+app.listen(process.env.PORT, () => {
   console.log('🚀 Server started: http://localhost:3333');
   console.log('Access http://localhost:3333/docs for api documentation!');
 });
