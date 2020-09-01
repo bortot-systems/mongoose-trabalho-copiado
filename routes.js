@@ -4,6 +4,7 @@ import AccountController from './controllers/accounts.js';
 
 const routes = express();
 
+//router
 routes.post('/deposit', AccountController.deposit);
 routes.post('/withdraw', AccountController.withdraw);
 routes.delete('/remove', AccountController.delete);
